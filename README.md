@@ -26,13 +26,14 @@ In this repository, you'll find a range of Java applications developed to demons
 To run any of the projects in this repository, follow these steps:
 
 1. Clone the repository to your local machine using Git:
-
-```bash
-git clone https://github.com/your-username/Java-Projects.git
-
-2. Open the project in Android Studio.
    
-3. Build and run the project on an Android device or emulator.
+   ```
+   git clone https://github.com/your-username/Android-App-Projects.git
+   ```
+
+3. Open the project in Android Studio.
+   
+4. Build and run the project on an Android device or emulator.
 
 ## Usage
 
