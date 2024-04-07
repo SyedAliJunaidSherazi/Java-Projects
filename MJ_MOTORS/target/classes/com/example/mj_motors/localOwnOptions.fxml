@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mj_motors.MoreOptionsLocalController">
+   <children>
+      <Button fx:id="customerCheck" layoutX="40.0" layoutY="75.0" mnemonicParsing="false" onAction="#customerNotBuyCarCheck" text="Customers Check" />
+      <Button fx:id="carsOnCommission" layoutX="224.0" layoutY="75.0" mnemonicParsing="false" onAction="#carCommission" text="Cars On Commision" />
+      <Button fx:id="customerMoreCars" layoutX="40.0" layoutY="126.0" mnemonicParsing="false" onAction="#customerBuyMoreThan1" text="Customer More Cars" />
+      <Button fx:id="carTypeCheck" layoutX="236.0" layoutY="126.0" mnemonicParsing="false" onAction="#customerSoldCar" text="Car Type Check" />
+      <Button fx:id="managerSold" layoutX="369.0" layoutY="100.0" mnemonicParsing="false" onAction="#managerSoldCar" text="Manager Who Has Sold More Cars" />
+      <Label layoutX="231.0" layoutY="33.0" text="More Options" textFill="#04688f">
+         <font>
+            <Font name="Bodoni MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="498.0" layoutY="31.0" mnemonicParsing="false" onAction="#back_1" text="Back" textFill="#980707">
+         <font>
+            <Font name="Californian FB Bold" size="18.0" />
+         </font>
+      </Button>
+      <TableView fx:id="optionsTable" layoutX="40.0" layoutY="167.0" prefHeight="200.0" prefWidth="529.0">
+         <columns>
+            <TableColumn fx:id="carId" prefWidth="75.0" text="Car Id" />
+            <TableColumn fx:id="carName" prefWidth="75.0" text="Car Name" />
+            <TableColumn fx:id="carPrice" prefWidth="75.0" text="Car Price" />
+            <TableColumn fx:id="manId" prefWidth="82.666748046875" text="Man Id" />
+            <TableColumn fx:id="manName" prefWidth="72.66668701171875" text="Man Name" />
+            <TableColumn fx:id="manPhNo" prefWidth="79.3333740234375" text="manPhNo" />
+            <TableColumn fx:id="custId" prefWidth="66.6666259765625" text="Cust Id" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
