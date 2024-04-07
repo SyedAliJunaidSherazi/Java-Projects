@@ -31,9 +31,9 @@ To run any of the projects in this repository, follow these steps:
    git clone https://github.com/your-username/Android-App-Projects.git
    ```
 
-3. Open the project in Android Studio.
+2. Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse, etc.).
    
-4. Build and run the project on an Android device or emulator.
+3. Build and run the project.
 
 ## Usage
 
