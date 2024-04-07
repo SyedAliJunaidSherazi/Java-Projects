@@ -21,6 +21,9 @@ In this repository, you'll find a range of Java applications developed to demons
 
 ## Technologies Used
 - Java
+- JavaFX
+- JavaSwing
+- Sockets
 
 ## Setup
 To run any of the projects in this repository, follow these steps:
